@@ -60,6 +60,13 @@ def merge_all():
 
 if __name__ == '__main__':
 
+    # to merge only csv
+    # merge_csv()
+
+    # to merge only excel file
+    # merge_xlsx()
+
+    # to merge all
     if listdir(ROOT_DIR_CSV):
         merge_csv()
     if listdir(ROOT_DIR_XLSX):
