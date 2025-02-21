@@ -21,4 +21,4 @@ SHEET_NAME = 'Sheet1'
 """
 Change settings for the merge csv and xlsx part here
 """
-SAVE_DIR_ALL = 'data/merged/all/output.csv'
+SAVE_DIR_ALL = 'data/merged/all/output.xlsx'

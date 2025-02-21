@@ -53,7 +53,7 @@ def merge_all():
     flist=[df_csv, df_xlsx]
 
     df_out = pd.concat(flist, axis=0, ignore_index=True)
-    df_out.to_csv(SAVE_DIR_ALL, index = False)
+    df_out.to_excel(SAVE_DIR_ALL, index = False)
 
     print("[DEBUG] merged all xlsx and csv")
 
